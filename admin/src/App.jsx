@@ -7,7 +7,7 @@ import Orders from './pages/Orders/Orders'
 import Login from './components/Login/Login'
 import { ToastContainer} from 'react-toastify'
 
-export const backendUrl = 'http://localhost:4000';
+export const backendUrl = 'https://fullstack-backend-euex.onrender.com';
 const App = () => {
   const [token, setTocken] = useState(localStorage.getItem('token') || '')
 
