@@ -1,0 +1,29 @@
+@import "tailwindcss";
+.app-container{
+    min-height: 100vh;
+}
+.app-content{
+    display: flex;
+}
+.page-content{
+    width: 70%;
+    margin: 2rem auto;
+    margin-left: max(5vw,25px);
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+.active{
+    background-color: rgb(253, 237, 159);
+}
+.box{
+    padding: 24px 32px;
+}
+.login-title{
+    text-align: center;
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
