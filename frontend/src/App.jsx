@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer'
 import { ToastContainer } from 'react-toastify'
 import Checkout from './pages/Checkout/Checkout'
 
-export const backendUrl = 'http://localhost:4000'
+export const backendUrl = 'https://fullstack-backend-euex.onrender.com'
 const App = () => {
   return (
     <div>
